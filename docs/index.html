@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -6,19 +7,26 @@
   <meta name="theme-color" content="#080d18">
   <meta name="description" content="BANGBOO-TICKET: sistema de gestión y venta local de boletos para conciertos y eventos musicales.">
   <title>BANGBOO-TICKET — La música comienza aquí</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="imagenes/bangboo.png">
+  <link rel="apple-touch-icon" href="imagenes/bangboo.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
+
   <header class="topbar">
     <a class="brand" href="#inicio" aria-label="BANGBOO-TICKET, inicio">
-      <span class="brand-mark"><span></span><span></span><span></span><span></span></span>
+      <img src="imagenes/bangboo.png" alt="" class="brand-logo">
       <span>BANGBOO<span class="brand-dash">—</span>TICKET</span>
     </a>
+
     <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
     <nav class="nav">
       <a href="#sistema">El sistema</a>
       <a href="#funciones">Características</a>
@@ -33,10 +41,12 @@
         <div class="eyebrow"><i></i> SISTEMA DE GESTIÓN · PROYECTO 2026</div>
         <h1>La música<br>comienza <em>aquí.</em></h1>
         <p class="hero-lead">Una forma más organizada de gestionar conciertos, vender entradas y mantener cada boleto bajo control.</p>
+
         <div class="hero-actions">
           <a class="button button-primary" href="#sistema">Conoce el proyecto <span>↘</span></a>
           <a class="button button-quiet" href="https://github.com/Hrnlpz-git/BANGBOO-TICKET" target="_blank" rel="noreferrer">Explorar código <span>↗</span></a>
         </div>
+
         <div class="hero-meta">
           <span><b>01</b> VENTA LOCAL</span>
           <span><b>02</b> CONTROL DE INVENTARIO</span>
@@ -44,101 +54,223 @@
         </div>
       </div>
 
-      <div class="hero-art reveal">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <!-- ENTRADA REAL DEL PROYECTO -->
+      <div class="hero-art reveal hero-real-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
         <div class="hero-glow"></div>
-        <div class="ticket ticket-back">
-          <div class="ticket-top"><span>ADMIT ONE</span><span>BB—026</span></div>
-          <div class="ticket-line"></div>
-          <div class="ticket-ghost">LIVE<br>EVENT</div>
-          <div class="ticket-bottom"><span>YOUR NEXT<br>EXPERIENCE</span><span>••••••</span></div>
+
+        <div class="hero-image-frame">
+          <img
+            src="imagenes/entrada-real.png"
+            alt="Entrada real generada por BANGBOO-TICKET"
+            class="zoomable-image"
+            tabindex="0"
+            role="button"
+            aria-label="Ampliar entrada real de BANGBOO-TICKET">
         </div>
-        <div class="ticket ticket-front">
-          <div class="ticket-top"><span class="ticket-brand">B<span>—</span>T</span><span class="ticket-status">● VALID</span></div>
-          <div class="ticket-main">
-            <span class="micro-label">TU ACCESO A LA EXPERIENCIA</span>
-            <strong>LIVE<br>WITHOUT<br>LIMITS<span>.</span></strong>
-          </div>
-          <div class="ticket-line"></div>
-          <div class="ticket-bottom"><span>ENTRADA DIGITAL<br><b>BANGBOO-TICKET</b></span><span class="qr-art" aria-label="Ilustración decorativa de código QR"></span></div>
-          <div class="ticket-notch"></div>
+
+        <div class="float-label label-top">
+          <span class="pulse"></span>
+          ENTRADA DIGITAL
         </div>
-        <div class="float-label label-top"><span class="pulse"></span> CONTROL EN TIEMPO REAL</div>
-        <div class="float-label label-bottom">HECHO PARA EVENTOS <b>✳</b></div>
-        <div class="art-index">FIG. 001 / TICKET SYSTEM</div>
+
+        <div class="float-label label-bottom">
+          BOLETO REAL <b>✳</b>
+        </div>
+
+        <div class="art-index">FIG. 001 / REAL TICKET</div>
       </div>
+
       <div class="hero-bottomline"><span>TECNOLOGÍA PARA CADA EVENTO</span><span>GUATEMALA · 2026</span></div>
     </section>
 
     <section class="intro section-wrap" id="sistema">
       <div class="section-kicker"><span>01 / EL PROYECTO</span><span class="kicker-rule"></span></div>
+
       <div class="intro-grid">
         <h2>Detrás de cada<br>concierto, hay un<br><em>sistema.</em></h2>
+
         <div class="intro-text">
           <p class="big-copy">BANGBOO-TICKET es un sistema de escritorio diseñado para apoyar la venta local de boletos para conciertos y eventos musicales.</p>
           <p>Centraliza la administración de eventos, artistas, localidades e inventario, mientras facilita el registro de ventas y la validación de entradas. Todo desde una misma aplicación.</p>
-          <div class="mini-stamp"><span>BB</span><div><b>DISEÑADO PARA ORGANIZAR</b><small>VENTA · CONTROL · EXPERIENCIA</small></div></div>
+
+          <div class="mini-stamp">
+            <span>BB</span>
+            <div><b>DISEÑADO PARA ORGANIZAR</b><small>VENTA · CONTROL · EXPERIENCIA</small></div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="features section-wrap" id="funciones">
       <div class="section-kicker"><span>02 / QUÉ HACE</span><span class="kicker-rule"></span></div>
+
       <div class="features-heading">
         <h2>Todo conectado.<br><em>Todo bajo control.</em></h2>
         <p>Herramientas para administrar el ciclo de vida de una entrada, desde la configuración del evento hasta su validación.</p>
       </div>
+
       <div class="feature-grid">
+
+        <!-- 01. VENTAS -->
         <article class="feature-card feature-large">
           <div class="feature-top"><span>01 — OPERACIÓN</span><span class="feature-icon">↗</span></div>
+
           <div class="feature-visual visual-sales">
-            <div class="sales-window"><div class="window-bar"><i></i><i></i><i></i><span>VENTA DE BOLETOS</span></div><div class="sales-content"><div><small>CONCIERTO SELECCIONADO</small><b>LIVE EXPERIENCE</b><span class="fake-line"></span><span class="fake-line short"></span></div><div class="price-chip">Q 250<span>.00</span></div></div><div class="sales-footer"><span>LOCALIDAD VIP</span><b>DISPONIBLE</b></div></div>
+            <img
+              src="imagenes/funcion-ventas.png"
+              alt="Pantalla de venta de boletos"
+              class="feature-real-image zoomable-image"
+              tabindex="0"
+              role="button"
+              aria-label="Ampliar pantalla de ventas">
           </div>
+
           <h3>Venta de entradas</h3>
           <p>Registro de compras y emisión de boletos asociados a cada venta.</p>
         </article>
+
+        <!-- 02. INVENTARIO -->
         <article class="feature-card">
           <div class="feature-top"><span>02 — INVENTARIO</span><span class="feature-icon">▤</span></div>
-          <div class="feature-visual visual-stock"><div class="stock-number">098<small> / 100</small></div><div class="stock-bar"><i></i></div><div class="stock-label"><span>BOLETOS DISPONIBLES</span><b>98%</b></div><div class="stock-lines"><i></i><i></i><i></i></div></div>
+
+          <div class="feature-visual visual-stock">
+            <img
+              src="imagenes/funcion-inventario.png"
+              alt="Pantalla de inventario de boletos"
+              class="feature-real-image zoomable-image"
+              tabindex="0"
+              role="button"
+              aria-label="Ampliar pantalla de inventario">
+          </div>
+
           <h3>Control de inventario</h3>
           <p>Seguimiento de existencias por concierto y localidad.</p>
         </article>
+
+        <!-- 03. VALIDACIÓN -->
         <article class="feature-card">
           <div class="feature-top"><span>03 — VALIDACIÓN</span><span class="feature-icon">⌗</span></div>
-          <div class="feature-visual visual-qr"><div class="qr-large"></div><div class="qr-caption"><b>BOLETO VERIFICADO</b><span>ESTADO: VÁLIDO</span></div></div>
+
+          <div class="feature-visual visual-qr">
+            <img
+              src="imagenes/funcion-validacion.png"
+              alt="Pantalla de validación de boletos"
+              class="feature-real-image zoomable-image"
+              tabindex="0"
+              role="button"
+              aria-label="Ampliar pantalla de validación">
+          </div>
+
           <h3>Validación de boletos</h3>
           <p>Consulta del estado de cada entrada mediante su código QR.</p>
         </article>
+
+        <!-- 04. ADMINISTRACIÓN -->
         <article class="feature-card">
           <div class="feature-top"><span>04 — ADMINISTRACIÓN</span><span class="feature-icon">✳</span></div>
-          <div class="feature-visual visual-events"><div class="event-pill"><i></i><span>CONCIERTOS</span><b>12</b></div><div class="event-pill"><i></i><span>ARTISTAS</span><b>08</b></div><div class="event-pill"><i></i><span>LOCALIDADES</span><b>04</b></div></div>
+
+          <div class="feature-visual visual-events">
+            <img
+              src="imagenes/funcion-administracion.png"
+              alt="Pantalla de administración de BANGBOO-TICKET"
+              class="feature-real-image zoomable-image"
+              tabindex="0"
+              role="button"
+              aria-label="Ampliar pantalla de administración">
+          </div>
+
           <h3>Gestión de eventos</h3>
           <p>Administración de conciertos, artistas, localidades y usuarios.</p>
         </article>
+
+        <!-- 05. REPORTES -->
         <article class="feature-card">
           <div class="feature-top"><span>05 — ANÁLISIS</span><span class="feature-icon">⌁</span></div>
-          <div class="feature-visual visual-chart"><div class="chart-head"><span>RESUMEN DE VENTAS</span><b>Q 24,500</b></div><div class="chart-bars"><i style="height:32%"></i><i style="height:52%"></i><i style="height:41%"></i><i style="height:75%"></i><i style="height:60%"></i><i style="height:92%"></i><i style="height:70%"></i><i style="height:100%"></i></div><div class="chart-axis"><span>SEM 01</span><span>SEM 08</span></div></div>
+
+          <div class="feature-visual visual-chart">
+            <img
+              src="imagenes/funcion-reportes.png"
+              alt="Pantalla de reportes y estadísticas"
+              class="feature-real-image zoomable-image"
+              tabindex="0"
+              role="button"
+              aria-label="Ampliar pantalla de reportes">
+          </div>
+
           <h3>Reportes y consultas</h3>
           <p>Información de ventas para apoyar el seguimiento de resultados.</p>
         </article>
+
       </div>
-      <p class="demo-note"><span>✳</span> Las ilustraciones de esta sección son elementos gráficos de presentación, no capturas ni datos reales del sistema.</p>
     </section>
 
     <section class="gallery section-wrap">
       <div class="section-kicker"><span>03 / EN PANTALLA</span><span class="kicker-rule"></span></div>
-      <div class="gallery-heading"><h2>El sistema,<br><em>en acción.</em></h2><p>Un vistazo a la interfaz de BANGBOO-TICKET.</p></div>
+
+      <div class="gallery-heading">
+        <h2>El sistema,<br><em>en acción.</em></h2>
+        <p>Un vistazo a la interfaz de BANGBOO-TICKET. Selecciona una imagen para ampliarla.</p>
+      </div>
+
       <div class="gallery-grid">
-        <div class="gallery-slot gallery-main"><div class="slot-frame"><div class="slot-cross">＋</div><span>CAPTURA 01</span><b>MENÚ PRINCIPAL</b><small>Reemplazaremos este espacio con una captura real.</small></div><div class="gallery-caption"><span>01 / PANEL PRINCIPAL</span><span>INTERFAZ</span></div></div>
-        <div class="gallery-slot"><div class="slot-frame"><div class="slot-cross">＋</div><span>CAPTURA 02</span><b>VENTA DE BOLETOS</b><small>Vista del proceso de venta.</small></div><div class="gallery-caption"><span>02 / VENTAS</span><span>OPERACIÓN</span></div></div>
-        <div class="gallery-slot"><div class="slot-frame"><div class="slot-cross">＋</div><span>CAPTURA 03</span><b>REPORTES</b><small>Vista de consultas y estadísticas.</small></div><div class="gallery-caption"><span>03 / REPORTES</span><span>ANÁLISIS</span></div></div>
+        <div class="gallery-slot gallery-main">
+          <div class="slot-frame">
+            <img src="imagenes/menu-principal.png"
+                 alt="Menú principal de BANGBOO-TICKET"
+                 class="gallery-image"
+                 tabindex="0"
+                 role="button"
+                 aria-label="Ampliar imagen del menú principal">
+          </div>
+          <div class="gallery-caption">
+            <span>01 / PANEL PRINCIPAL</span>
+            <span>INTERFAZ</span>
+          </div>
+        </div>
+
+        <div class="gallery-slot">
+          <div class="slot-frame">
+            <img src="imagenes/venta-boletos.png"
+                 alt="Pantalla de venta de boletos"
+                 class="gallery-image"
+                 tabindex="0"
+                 role="button"
+                 aria-label="Ampliar imagen de venta de boletos">
+          </div>
+          <div class="gallery-caption">
+            <span>02 / VENTAS</span>
+            <span>OPERACIÓN</span>
+          </div>
+        </div>
+
+        <div class="gallery-slot">
+          <div class="slot-frame">
+            <img src="imagenes/reportes.png"
+                 alt="Reportes de BANGBOO-TICKET"
+                 class="gallery-image"
+                 tabindex="0"
+                 role="button"
+                 aria-label="Ampliar imagen de reportes">
+          </div>
+          <div class="gallery-caption">
+            <span>03 / REPORTES</span>
+            <span>ANÁLISIS</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="tech section-wrap" id="tecnologia">
       <div class="section-kicker"><span>04 / TECNOLOGÍA</span><span class="kicker-rule"></span></div>
+
       <div class="tech-grid">
-        <div><h2>Construido con<br><em>herramientas sólidas.</em></h2><p>Una arquitectura de escritorio cliente-servidor que combina una interfaz moderna con persistencia de datos relacional.</p></div>
+        <div>
+          <h2>Construido con<br><em>herramientas sólidas.</em></h2>
+          <p>Una arquitectura de escritorio cliente-servidor que combina una interfaz moderna con persistencia de datos relacional.</p>
+        </div>
+
         <div class="tech-stack">
           <div><span class="tech-symbol java">J</span><span><b>Java</b><small>Lógica y estructura de la aplicación</small></span><span class="stack-arrow">↗</span></div>
           <div><span class="tech-symbol fx">FX</span><span><b>JavaFX</b><small>Interfaz gráfica de escritorio</small></span><span class="stack-arrow">↗</span></div>
@@ -149,7 +281,7 @@
     </section>
 
     <section class="closing section-wrap">
-      <div class="closing-mark"><span></span><span></span><span></span><span></span></div>
+      <img src="imagenes/bangboo.png" alt="Logo de BANGBOO-TICKET" class="closing-logo">
       <span class="eyebrow">BANGBOO-TICKET / REPOSITORIO PÚBLICO</span>
       <h2>¿Listo para<br>conocer el <em>proyecto?</em></h2>
       <p>Explora el código fuente y conoce cómo está construido BANGBOO-TICKET.</p>
@@ -158,10 +290,21 @@
   </main>
 
   <footer class="footer section-wrap">
-    <a class="brand" href="#inicio"><span class="brand-mark"><span></span><span></span><span></span><span></span></span><span>BANGBOO<span class="brand-dash">—</span>TICKET</span></a>
+    <a class="brand" href="#inicio">
+      <img src="imagenes/bangboo.png" alt="" class="brand-logo">
+      <span>BANGBOO<span class="brand-dash">—</span>TICKET</span>
+    </a>
     <span>PROYECTO ACADÉMICO · GUATEMALA</span>
     <a href="#inicio">VOLVER ARRIBA ↑</a>
   </footer>
+
+  <!-- VISOR DE IMÁGENES -->
+  <div class="lightbox" id="image-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <button class="lightbox-close" type="button" aria-label="Cerrar imagen">×</button>
+    <img class="lightbox-image" src="" alt="">
+    <p class="lightbox-hint">PRESIONA ESC O HAZ CLIC FUERA DE LA IMAGEN PARA CERRAR</p>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
