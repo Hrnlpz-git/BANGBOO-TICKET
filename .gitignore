@@ -1,0 +1,19 @@
+
+# Configuración privada de PostgreSQL
+**/db_config.properties
+
+# Archivos generados por el sistema
+/boletos_qr/
+/entradas_pdf/
+
+# Archivos compilados
+/target/
+
+# Configuración privada de NetBeans
+/nbproject/private/
+
+# Archivos temporales
+*.log
+Thumbs.db
+.DS_Store
+/multimedia/
